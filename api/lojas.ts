@@ -1,4 +1,3 @@
-// api/lojas.ts
 import { INITIAL_STORES } from '../src/data/initialStores';
 
 export default function handler(
