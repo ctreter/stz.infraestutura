@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html,
+  body {
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    max-width: 100%;
+    overscroll-behavior-x: none;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Subtle engineering table scrollbars */
+.engineering-scroll::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+.engineering-scroll::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.engineering-scroll::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.engineering-scroll::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

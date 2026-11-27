@@ -1,0 +1,6 @@
+{
+  "name": "stz - areas consolidadas",
+  "description": "Sistema de engenharia e manutenção da STZ para pesquisa rápida de indicadores, análise técnica e gestão consolidada de áreas das unidades.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
