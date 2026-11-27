@@ -1,4 +1,4 @@
-import { initialStores } from '../src/data/initialStores';
+import { INITIAL_STORES } from '../src/data/initialStores';
 
 export default function handler(req, res) {
   if (req.method === 'GET') {
