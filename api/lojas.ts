@@ -1,4 +1,5 @@
-import { lojas} from    ./data/llojas.json';
+// api/lojas.ts
+import { INITIAL_STORES } from '../src/data/initialStores';
 
 export default function handler(
   req: { method: string },
@@ -10,11 +11,10 @@ export default function handler(
   if (req.method === 'GET') {
     res.status(200).json({
       stores: INITIAL_STORES,
+      count: INITIAL_STORES.length,
       lastModified: new Date().toISOString(),
     });
     return;
   }
-
   res.status(405).json({ error: 'Somente consulta (GET) disponível na Vercel.' });
 }
-
