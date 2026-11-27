@@ -1,4 +1,4 @@
-import type { IndicatorMeta, StoreAreaRecord } from '../types/lstore.ts';
+import type { IndicatorMeta, StoreAreaRecord } from '../types/store.ts';
 
 export const INDICATOR_DEFINITIONS: IndicatorMeta[] = [
   { key: 'numero', label: 'Número da Unidade', shortLabel: 'Nº', group: 'dados', description: 'Código identificador da unidade na rede STZ' },
