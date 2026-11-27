@@ -1,4 +1,4 @@
-import { INITIAL_STORES } from '../src/data/initialStores';
+import { linitialstores } from '../src/data/linitialStores';
 
 export default function handler(req, res) {
   if (req.method === 'GET') {
