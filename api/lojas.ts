@@ -1,4 +1,4 @@
-import { lojas} from    ./data/lojas.json';
+import { lojas} from    ./data/llojas.json';
 
 export default function handler(
   req: { method: string },
